@@ -61,7 +61,7 @@ function fetchPrompt() {
                 console.log(`\x1b[36m${'Data has been saved to repositories.txt'}\x1b[0m`);
             }
         })
-        .catch(err => console.error('Something went wrong, Check the username and try again'));
+        .catch(err => console.error('Something went wrong, this could be a connection error. Check the username and try again'));
     })
     
     .catch(error => {
